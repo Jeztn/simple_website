@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monograph</title>
+    <style>
+        .header-container {
+            margin-right: 50px;
+            position: relative; /* Add relative positioning to the header container */
+        }
+
+        h1{
+            margin-right: 20px;
+        }
+
+        /* Styles for the "Plain language, Extraordinary results" text */
+        .header-text {
+            font-size: 60px;
+            margin-left: 50px;
+            margin-top: 3em;
+            position: relative; /* Set the position to relative for the pseudo-elements */
+        }
+
+        /* Styles for the "Extraordinary results" text */
+        .header-text span {
+            margin-left: 150px; /* Shifting "Extraordinary results" to the right */
+        }
+
+        /* Pseudo-element to create the vertical line starting from the horizontal line */
+        
+
+        /* Styles for the label and subsequent lines of text */
+        .header-label {
+            font-size: 24px;
+            margin-left: 50px;
+            margin-top: 30px;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            border-top: 2px solid black;
+        }
+
+        /* Add margin-top to subsequent lines of text */
+        .header-label p {
+            margin-top: 10px;
+            
+        }
+        .para1{
+            padding-right: 100px;
+            border-right: 2px solid black;
+        }
+        .para2{
+            margin-left: 10px;
+            padding-top: 120px;
+            font-size: 30px;
+        }
+        body{
+            background: rgb(255,138,162);
+background: linear-gradient(90deg, rgba(255,138,162,1) 0%, rgba(241,59,164,1) 33%, rgba(0,200,223,1) 74%, rgba(236,253,255,1) 100%);
+        }
+        .heading{
+            border-bottom: 2px solid black;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <div class="heading">
+            <h1>Monograph</h1>
+        </div>
+        
+        <div class="header-text">
+            Plain language,<br>
+            <span>Extraordinary results</span> <!-- Wrap Extraordinary results in a span element -->
+        </div>
+        <!-- Label and subsequent lines of text -->
+        <div class="header-label">
+            <div class="para1">
+                <p>We specialize in <br>
+                    creative, clear, and <br>
+                    cohesive <br>
+                    communications <br>
+                    solutions that build <br>
+                    memorable <br>
+                    experiences</p>    
+            </div>
+            <div class="para2">
+                Monograph communication was <br> built on the belief that simple can <br> be extraordinary.
+            </div>
+            
+            
+        </div>
+    </header>
+</body>
+</html>
